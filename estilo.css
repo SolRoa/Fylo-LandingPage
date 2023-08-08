@@ -31,3 +31,49 @@ a{
 .logo{
     margin: 40px;
 }
+
+
+
+/* trabajo en la section hero */
+.hero{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.texto-hero{
+    margin: 40px;
+    width: 50%;
+}
+.svg-1{
+    transform: scale(.5);
+    margin: -250px;
+}
+.hero h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    width: 80%;
+    line-height: 1.5;
+    color: hsl(243, 87%, 12%);
+    
+}
+.hero p{
+    width: 85%;
+}
+.hero input{
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #68676E; 
+    border-radius: 5px;
+    width: 43%;
+}
+.hero button{
+    background-color: #2F65F9;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 3px #EFECEB;
+}
