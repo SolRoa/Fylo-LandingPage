@@ -1,0 +1,33 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 16px;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* trabajo en el header */
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor-a{
+    margin-right: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+.logo{
+    margin: 40px;
+}
