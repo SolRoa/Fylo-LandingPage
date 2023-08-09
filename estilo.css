@@ -81,7 +81,6 @@ a{
 
 /* trabajo en la seccion stay-productive */
 .stay-productive{
-    margin-bottom: 5%;
     margin-top: 15%;
 }
 .curva{
@@ -162,4 +161,45 @@ a{
 .img-dr{
     width: 40%;
     margin-right: 40px;
+}
+
+
+
+/* trabajo en la seccion get early */
+.get-early{
+    background-color: #575989;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.texto-izquierda{
+    color: #F4FAF9;
+    width: 38%;
+    margin-left: 40px;
+}
+.texto-izquierda h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+.get-early form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    width: 40%;
+}
+.get-early input{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #68676E; 
+    margin-bottom: 25px;
+}
+.get-early form button{
+    width: 40%;
+    background-color: #2F65F9;
+    color: white;
+    padding: 10px;
+    border: none;
+    box-shadow: 1.5px 1.5px 0px 1.5px #535382;
 }
