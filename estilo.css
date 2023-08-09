@@ -12,6 +12,7 @@ body{
 /* trabajo en el header */
 header{
     width: 100%;
+    padding-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +37,6 @@ a{
 
 /* trabajo en la section hero */
 .hero{
-    background-color: blue;
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
@@ -45,35 +45,33 @@ a{
 }
 .texto-hero{
     margin: 40px;
-    width: 50%;
 }
 .img-hero{
     width: 50%;
     margin-right: 40px;
-    background-color: red;
 }
 .hero h1{
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     width: 100%;
     line-height: 1.5;
     color: hsl(243, 87%, 12%);
 }
 .hero p{
-    width: 85%;
+    width: 95%;
 }
 .hero input{
     padding: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
     border: 1px solid #68676E; 
     border-radius: 5px;
-    width: 43%;
+    width: 45%;
 }
 .hero button{
     background-color: #2F65F9;
     color: white;
     padding: 10px;
-    width: 25%;
+    width: 32%;
     border: none;
     border-radius: 5px;
     box-shadow: 3px 3px 0px 3px #EFECEB;
@@ -91,7 +89,6 @@ a{
     margin-bottom: -5px;
 }
 .todo{
-    
     display: flex;
     align-items: center;
     background-color: #F9F8FE;
@@ -108,17 +105,19 @@ a{
 .stay-productive p{
     width: 75%;
 }
-.svg-stay{
-    margin: -250px;
-    transform: scale(.5);
-}
 .stay-productive button{
     background-color: #F9F8FE;
+    display: flex;
+    align-items: center;
     color: #6CAEA4;
     border-top: none;
     border-right: none;
     border-left: none;
     border-bottom: 1px solid #658B86;
+
+}
+.flecha{
+    margin-left: 8px;
 }
 .testimonio{
     background-color: #FFFFFF;
@@ -134,30 +133,29 @@ a{
     width: 90%;
 }
 .contenedor-kyle{
-    margin-left: 10px;
     display: flex;
-    align-items: center;
     height: 55px;
 }
 .img-kyle{
     border-radius: 50%;
-    transform: scale(.4);
-    margin-left: -35px;
+    margin-left: 10px;
 }
 .texto-kyle{
-    /* background-color: #68676E; */
     font-size: 15px;
     width: 100%;
-    margin-left: -25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     line-height: 0.5;
 }
 .texto-kyle span{
     font-weight: bold;
+    margin-left: 10px;
 }
 .texto-kyle p{
     font-size: 10px;
 }
-.test-img{
+.comillas{
     margin-left: 10px;
     width: 20px;
 }
