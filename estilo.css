@@ -203,3 +203,64 @@ a{
     border: none;
     box-shadow: 1.5px 1.5px 0px 1.5px #535382;
 }
+
+
+
+
+/* trabajo en el footer */
+footer{
+    background-color: #07043B;
+    color: #FEFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.logo-footer{
+    /* como hago para cambiar el color del logo */
+    filter: invert(94%) sepia(1%) saturate(1577%) hue-rotate(218deg) brightness(104%) contrast(102%);
+}
+.texto1{
+    margin-left: 40px;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+.img-tel{
+    transform: scale(.8);
+    padding: 5%;
+}
+.email{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+.img-email{
+    transform: scale(.8);
+    padding: 5%;
+}
+.contenedor-t2t3{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.texto2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 50px;
+    width: 36%;
+}
+.texto3{
+    margin-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+    height: 20%;
+    margin-top: 50px;
+}
+.texto3 img{
+    width: 30px;
+}
