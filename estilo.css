@@ -228,10 +228,6 @@ footer{
     padding-top: 80px;
     padding-bottom: 40px;
 }
-.logo-footer{
-    /* como hago para cambiar el color del logo */
-    filter: invert(94%) sepia(1%) saturate(1577%) hue-rotate(218deg) brightness(104%) contrast(102%);
-}
 .texto1{
     margin-left: 40px;
 }
