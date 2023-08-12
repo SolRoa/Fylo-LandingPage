@@ -156,10 +156,20 @@ form{
     border-right: none;
     border-left: none;
     border-bottom: 1px solid #658B86;
-
+    transition: .5s;
+}
+.stay-productive button:hover{
+    color: #82E1D0;
+    border-bottom: 1px solid #82E1D0;
 }
 .flecha{
     margin-left: 8px;
+}
+.flecha use{
+    transition: .5s;
+}
+.flecha use:hover{
+    fill: #82E1D0;
 }
 .testimonio{
     background-color: #FFFFFF;
@@ -231,21 +241,41 @@ form{
     flex-direction: column;
     margin-right: 40px;
     width: 40%;
+    background-color: #07043B;
 }
 .get-early input{
     padding: 18px;
     margin-right: 15px;
     border: 1px solid #68676E;
     border-radius: 5px; 
-    margin-bottom: 25px;
+}
+.get-early input:invalid{
+    display: block;
+    border: 1px solid red; 
+}
+.error{
+    visibility: hidden;
+}
+.get-early input[type=email]:invalid + .error::before{
+    content: 'Plese check your email';
+    visibility: visible;
+    color: red;
+    font-size: 15px;
+    margin-top: 0;
 }
 .get-early form button{
+    margin-top: 25px;
     width: 40%;
     background-color: #2F65F9;
     color: white;
     padding: 15px;
     border: none;
     box-shadow: 1.5px 1.5px 0px 1.5px #535382;
+    cursor: pointer;
+    transition: .5s;
+}
+.get-early form button:hover{
+    background-color: #6D9BFD;
 }
 
 
