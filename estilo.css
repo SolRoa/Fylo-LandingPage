@@ -316,6 +316,13 @@ footer{
     justify-content: space-between;
     width: 80%;
 }
+.contenedor-t2t3 p{
+    transition: .5s;
+    cursor: pointer;
+}
+.contenedor-t2t3 p:hover{
+    color: #5E76CA;
+}
 .texto2{
     display: flex;
     justify-content: space-between;
@@ -326,11 +333,32 @@ footer{
 .texto3{
     margin-right: 240px;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     width: 12%;
     height: 20%;
-    margin-top: 50px;
+    margin-top: 70px;
+    cursor: pointer;
 }
-.texto3 img{
-    width: 30px;
+.texto3 svg{
+    width: 25px;
+   height: 25px;
+}
+.facebook{
+    transition: .5s;
+}
+.facebook:hover{
+    fill: #5E76CA;
+}
+.twitter{
+    transition: .5s;
+}
+.twitter:hover{
+    fill: #5E76CA;
+}
+.instagram{
+    transition: .5s;
+}
+.instagram:hover{
+    fill: #5E76CA;
 }
