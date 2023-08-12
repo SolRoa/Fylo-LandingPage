@@ -46,9 +46,15 @@ a{
 .texto-hero{
     margin: 40px;
 }
+.contenedor-img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: 40px;
+
+}
 .img-hero{
-    width: 50%;
-    margin-right: 40px;
+    width: 100%;
 }
 .hero h1{
     font-family: 'Open Sans', sans-serif;
@@ -60,21 +66,47 @@ a{
 .hero p{
     width: 95%;
 }
+form{
+    display: flex;
+}
+.contenedor-input{
+    width: 50%;
+}
 .hero input{
-    padding: 15px;
-    margin-right: 10px;
-    border: 1px solid #68676E; 
+    width: 92%;
+    padding: 10px;
+    border: 1px solid #68676E;
     border-radius: 5px;
-    width: 45%;
+}
+.hero input:invalid{
+    display: block;
+    border: 1px solid red; 
+}
+.error{
+    visibility: hidden;
+}
+.hero input[type=email]:invalid + .error::before{
+    content: 'Plese check your email';
+    visibility: visible;
+    color: red;
+    font-size: 15px;
+}
+.contenedor-button{
+    margin-left: 25px;
 }
 .hero button{
     background-color: #2F65F9;
     color: white;
-    padding: 15px;
-    width: 32%;
+    padding: 10px 50px;
+    width: 100%;
     border: none;
     border-radius: 5px;
     box-shadow: 3px 3px 0px 3px #EFECEB;
+    transition: .5s;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color: #6D9BFD;
 }
 
 
